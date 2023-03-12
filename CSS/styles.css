@@ -1,0 +1,54 @@
+/* GERAL*/
+
+*{
+    padding:0;
+    margin:0;
+    font-family: Helvetica, Arial,  sans-serif;
+    color:#333;
+    box-sizing: border-box;
+}
+
+/* Body do projeto */
+body{
+    background-image: url("https://www.kejifuwu.cn/uploads/setting/banner/20190824185021_5d61166d1c486.png");
+    background-position: center;
+    background-size:  auto;
+}
+
+button{
+    background-color: #FDFDFD;
+    color:#102F5e;
+    border: 2px solid #102F5e;
+    padding: .3rem .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+button:hover{
+    background-color: #102F5e;
+    color: #FDFDFD;
+}
+
+button:hover > i{
+    color: #FDFDFD;
+}
+
+button i {
+    color:#102F5e;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+input,
+select{
+    padding: 0.25rem 0.5rem;
+}
+
+.hide{
+    display: none;
+}
+
